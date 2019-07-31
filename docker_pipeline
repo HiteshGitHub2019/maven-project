@@ -4,6 +4,7 @@ pipeline{
 		stage('clone source code'){
 			steps{
 				git 'https://github.com/HiteshGitHub2019/maven-project.git'
+			}	
 			}
 		}
 		stage('compile cource code'){
